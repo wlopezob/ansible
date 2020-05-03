@@ -25,9 +25,10 @@ ansible -i hosts node01 -m ping -k
 ```
 ssh-keygen
 ```
-#### Copiamos nuestro pub en el servidor nodo01
+#### Copiamos nuestro pub en el servidor nodo01 y nodo02
 ```
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.1.45
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.1.39
 ```
 
 #### Ping ad-hoc al servidor nodo01 con la contraseña del certificado pub
