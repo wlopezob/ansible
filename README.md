@@ -1,8 +1,13 @@
 
 # Ansible con Centos 7
 
-Se listan los siguientes archivos:
-1. 
+## Instalar docker con ansible
+
+### Archivos principales del repo:
+1. Ansible.pptx : Presentacion de Ansible.
+2. ansible.cfg : Archivo con las configuraciones por defecto de ansible.
+3. hosts : Archivo con la lista de los nodos agrupados y con parametro por defecto para establecer la conexion a los nodos.
+4. install_docker.yml : archivo playbook con los taks para la instalacion de docker.
 
 ## Instalar ansible
 ```
