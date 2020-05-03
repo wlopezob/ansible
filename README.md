@@ -1,6 +1,8 @@
 
 # Ansible con Centos 7
 
+<img src="https://www.ansible.com/hubfs/2016_Images/Blog_Headers/Ansible-Docker-Blog-2.png"></a>
+
 ## Instalar docker con ansible
 
 ### Archivos principales del repo:
